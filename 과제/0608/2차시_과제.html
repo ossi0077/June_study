@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2차시 과제</title>
+</head>
+<body>
+    <!-- 확인문제 1 -->
+    <script>
+        const a = Number(prompt('첫 번째 숫자',''))
+        const b = Number(prompt('두 번째 숫자',''))
+        if (a>b) {
+        alert('첫 번째로 입력한 숫자가 더 큽니다.')
+        } else if (a==b) {
+        alert('두 숫자가 같습니다.')
+        } else {
+        alert('두 번째로 입력한 숫자가 더 큽니다.')
+        }
+    </script>
+
+    <!-- 확인문제 2 -->
+    <script>
+        const x = 15;
+        if(x>10 && x<20){
+            console.log('조건에 맞습니다.')
+        }
+    </script>
+
+    <!-- 확인문제 3 -->
+    <script>
+        const a_3 = Number(prompt('숫자를 입력해주세요.',''))
+        if(a_1<0){
+            alert('입력한 숫자는 음수입니다.')
+        }
+    </script>
+
+    <!-- 확인문제 4 -->
+    <script>
+        const a_4 = Number(prompt('숫자를 입력해주세요.',''))
+        if(a%2==0){
+            alert('입력한 숫자는 짝수입니다.')
+        }
+    </script>
+
+    <!-- 확인문제 5 -->
+    <script>
+        const a_5 = Number(prompt('월을 입력해주세요.'))
+        alert(a_5)
+        switch(a_5){
+            case 1:
+                alert('겨울입니다.')
+                break;
+            case 2:
+                alert('겨울입니다.')
+                break;
+            case 3:
+                alert('봄입니다.')
+                break;
+            case 4:
+                alert('봄입니다.')
+                break;
+            case 5:
+                alert('봄입니다.')
+                break;
+            case 6:
+                alert('여름입니다.')
+                break;
+            case 7:
+                alert('여름입니다.')
+                break;
+            case 8:
+                alert('여름입니다.')
+                break;
+            case 9:
+                alert('가을입니다.')
+                break;
+            case 10:
+                alert('가을입니다.')
+                break;
+            case 11:
+                alert('가을니다.')
+                break;
+            case 12:
+                alert('겨울입니다.')
+                break;
+            default:
+                alert('올바른 달을 입력하세요.')
+        }
+    </script>
+
+    <!-- 확인문제 6 -->
+    <script>
+        // 정답 : 3번보기
+    </script>
+
+    <!-- 확인문제 7 -->
+    <script>
+        // 정답 : 1번보기
+        // const 선언시에 초기화 하지 않았다는 Uncaught SyntaxError가 발생한다.
+    </script>
+
+    <!-- 확인문제 8 -->
+    <script>
+        const number = 10
+        console.log(++number)
+        console.log(number++)
+        console.log(++number)
+        console.log(number--)
+        // 에러가 발생한다.
+        // -> const선언은 재할당이 불가능하므로 증감연사자 사용시 에러가 발생한다.
+    </script>
+</body>
+</html>

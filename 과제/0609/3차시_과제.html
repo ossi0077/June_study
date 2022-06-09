@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const fsk = [1,2,3,4,5,6,7,8,9,10]
+
+        // 1. 순서대로 출력 해보세요.
+        for(i in fsk){
+            document.write(`${fsk[i]}\n`)
+        }
+
+        document.write('<hr>')
+
+        // 2. 거꾸로 출력 해보세요.
+        for(i = fsk.length-1;i>-1;i--){
+            document.write(`${fsk[i]}\n`)
+        }
+        
+        document.write('<hr>')
+
+        // 3. 짝수번째만 출력해보세요.
+        for(i in fsk){
+            if(i%2==1){
+                document.write(`${fsk[i]}\n`)
+            }
+        }
+    </script>
+</body>
+</html>

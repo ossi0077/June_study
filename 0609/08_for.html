@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for문</title>
+</head>
+<body>
+    <script>
+        // for 변수 in 배열 --> 배열길이만큼 변수에 식별자를 가져온다?
+        const fruits = ['사과', '딸기','수박','참외']
+        for (const i in fruits){
+            console.log(`${Number(i)+1}번째 인덱스의 과일은 ${fruits[i]}입니다.`)
+            // i(변수) 가 string 타입
+        }
+
+        console.log('------------------------')
+
+        // for 변수 of 배열 --> 배열길이만큼 변수에 요소를 가져온다?
+        for (const frk of fruits){
+            console.log(`${fruits.indexOf(frk)+1}번째 인덱스의 과일은 ${frk}입니다.`)
+            // indexOf 사용하면 number 타입을 반환
+        }
+        console.log('------------------------')
+        
+        // for(초기값;조건식;증감식){
+        //     실행문
+        // }
+        const fsk = ['사과','딸기','수박','참외']
+        for(let i=0; i<4; i++){
+            document.write(`${i+1}번째 과일은 ${fsk[i]}<pre>`)
+        }
+    </script>
+</body>
+</html>
