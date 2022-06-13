@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function minvalue(a, b){
+            var min =0;
+
+            if(a<b){
+                min = a;
+            }else if(a>b){
+                min = b;
+            }
+            return min;
+        }
+
+        var result = minvalue(30,20);
+        document.write(result);
+
+        function maxvalue(a,b){
+            var max = 0;
+
+            if(a>b){
+                max = a;
+            }else if(a<b){
+                max = b;
+            }
+            return max;
+        }
+        var result = maxvalue(30,20);
+        document.write('<br>')
+        document.write(result);
+    </script>
+</body>
+</html>

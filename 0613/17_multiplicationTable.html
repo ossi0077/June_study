@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var times = parseInt(prompt('출력할 단을 입력'));
+
+        function Multiplication_table(x){
+            for(let i = 2; i < x+1;i++){
+                for(let j = 1; j < 10; j++){
+                    document.write(`${i} * ${j} = ${i*j}<br>`)
+                }document.write('<br>')
+            }
+        }
+
+        Multiplication_table(times)
+    </script>
+</body>
+</html>
