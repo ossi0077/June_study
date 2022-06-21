@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="test" path="/test" reloadable="true" source="org.eclipse.jst.jee.server:test"/><Context docBase="javaScript" path="/javaScript" reloadable="true" source="org.eclipse.jst.jee.server:javaScript"/></Host>
+      <Context docBase="test" path="/test" reloadable="true" source="org.eclipse.jst.jee.server:test"/><Context docBase="javaScript" path="/javaScript" reloadable="true" source="org.eclipse.jst.jee.server:javaScript"/><Context docBase="Ready" path="/Ready" reloadable="true" source="org.eclipse.jst.jee.server:Ready"/><Context docBase="Basic_Selector" path="/Basic_Selector" reloadable="true" source="org.eclipse.jst.jee.server:Basic_Selector"/><Context docBase="order_selector" path="/order_selector" reloadable="true" source="org.eclipse.jst.jee.server:order_selector"/><Context docBase="Idex_Selector" path="/Idex_Selector" reloadable="true" source="org.eclipse.jst.jee.server:Idex_Selector"/><Context docBase="Attribute_Selector" path="/Attribute_Selector" reloadable="true" source="org.eclipse.jst.jee.server:Attribute_Selector"/><Context docBase="Status_Selector" path="/Status_Selector" reloadable="true" source="org.eclipse.jst.jee.server:Status_Selector"/></Host>
     </Engine>
   </Service>
 </Server>
