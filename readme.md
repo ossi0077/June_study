@@ -23,3 +23,10 @@ jquery 실습을 위한 환경구축
 jquery 선택자 실습
 ### 2022/06/22
 jquery form 태그 선택자, 이벤트 함수, DOM 학습
+### 2022/06/23
+학습 내용
+- jquery css제어
+- 태그 탐색
+- jquery 효과
+- 애니메이션
+- 표준 웹통신, Ajax 통신, jquery Ajax 통신
